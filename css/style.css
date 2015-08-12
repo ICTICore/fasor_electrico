@@ -34,6 +34,7 @@ body{
 .italic-blue{
     font-style: italic;
     color: #0083C3;
+    font-size: 18px;
 }
 .bullet_y{
     height: 19px;
@@ -83,7 +84,7 @@ body{
 }
 .div-final{
     width: 100%;
-    height: 80px;
+    height: 65px;
     background-color: transparent;
 }
 
