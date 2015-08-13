@@ -94,6 +94,21 @@ body{
     background-color: #eee;
 }
 
+.cursor-mano{
+    cursor: pointer;
+}
+
+/*Servicios*/
+.servicio-titulo{
+    width: 100%;
+    padding: 5px;
+    background-color: #0083C3;
+    color: #74E8FF;
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+
 /*Index*/
 .titulo-azul-grande{
     padding: 10px;
@@ -227,6 +242,12 @@ body{
     margin: 0px;
     background-color: #0083C3;
     height: 6px;
+}
+.div-morado{
+    width: 100%;
+    margin: 0px;
+    background-color: #9966CC;
+    height: 3px;
 }
 
 .footer .div-body{
