@@ -101,7 +101,6 @@
                                 <li><a href="<?php echo $url_root;?>reguladores.php">Reguladores</a></li>
                                 <li><a href="<?php echo $url_root;?>reguladores.php#automaticos">Reguladores automáticos de voltajes especiales</a></li>
                                 <li><a href="<?php echo $url_root;?>reguladores.php#transformadores">Transformadores Variables (Variaks)</a></li>
-                                <li><a href="<?php echo $url_root;?>reguladores.php#sistemas">Sistemas Eléctricos</a></li>
                             </ul>
                         </li>
                        <li class="dropdown <?php echo (substr($_SERVER['PHP_SELF'],strlen($url_root)) == 'sistemas.php' ? ' active' : ''); ?>">

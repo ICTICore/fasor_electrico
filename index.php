@@ -10,30 +10,24 @@ include_once 'header.php';
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="item active"> <img src="http://lorempixel.com/1200/350/sports" style="width:100%" alt="First slide">
+    <div class="item active"> <img src="<?php echo $url_root; ?>img/banner/a.png" style="width:100%" alt="First slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Soluciones eléctricas en media y baja tensión</h1>
-          
           
         </div>
       </div>
     </div>
-    <div class="item"> <img src="http://lorempixel.com/1200/350/people" style="width:100%" data-src="" alt="Second    slide">
+    <div class="item"> <img src="<?php echo $url_root; ?>img/banner/b.png" style="width:100%" data-src="" alt="Second    slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Slide 2</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae egestas purus. </p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          
         </div>
       </div>
     </div>
-    <div class="item"> <img src="http://lorempixel.com/1200/350/abstract" style="width:100%" data-src="" alt="Third slide">
+    <div class="item"> <img src="<?php echo $url_root; ?>img/banner/c.png" style="width:100%" data-src="" alt="Third slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Slide 3</h1>
-          <p>Donec sit amet mi imperdiet mauris viverra accumsan ut at libero.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          
         </div>
       </div>
     </div>
@@ -45,7 +39,9 @@ include_once 'header.php';
         <div class="col-sm-6 col-lg-3 ">
             <div class="index-acceso">
                 <div class="index-acceso-title">
+                    <a href="<?php echo $url_root;?>monitoreo.php">
                     <img src="<?php echo $url_root;?>img/index/btn_SecCalidad.png">
+                    </a>
                     <br/>
                     Calidad y Monitoreo
                 </div>
@@ -58,14 +54,18 @@ include_once 'header.php';
                     </p>
                 </div>
                 <div class="index-acceso-body-link">
+                    <a href="<?php echo $url_root;?>monitoreo.php">
                     <img src="<?php echo $url_root;?>img/btn/btn_sm_g.png">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-lg-3 ">
             <div class="index-acceso">
                 <div class="index-acceso-title ">
+                    <a href="<?php echo $url_root;?>servicios.php">
                     <img src="<?php echo $url_root;?>img/index/btn_Seccservicos.png">
+                    </a>
                     <br/>
                     <div class="titulo-morado">
                     Servicios Eléctricos
@@ -77,14 +77,18 @@ include_once 'header.php';
                     </p>
                 </div>
                 <div class="index-acceso-body-link">
+                    <a href="<?php echo $url_root;?>servicios.php">
                     <img src="<?php echo $url_root;?>img/btn/btn_sm_p.png">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-lg-3 ">
             <div class="index-acceso">
                 <div class="index-acceso-title">
+                    <a href="<?php echo $url_root;?>reguladores.php">
                     <img src="<?php echo $url_root;?>img/index/btn_SeccReguladores.png">
+                    </a>
                     <br/>
                     <div class="titulo-azul">
                     Reguladores de Tensión
@@ -96,14 +100,18 @@ include_once 'header.php';
                     </p>
                 </div>
                 <div class="index-acceso-body-link">
+                    <a href="<?php echo $url_root;?>reguladores.php">
                     <img src="<?php echo $url_root;?>img/btn/btn_sm_b.png">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-lg-3 ">
             <div class="index-acceso">
                 <div class="index-acceso-title">
+                    <a href="<?php echo $url_root;?>sistemas.php">
                     <img src="<?php echo $url_root;?>img/index/btn_SeccSolares.png">
+                    </a>
                     <br/>
                     <div class="titulo-amarillo">
                     Sistemas Solares
@@ -115,7 +123,9 @@ include_once 'header.php';
                     </p>
                 </div>
                 <div class="index-acceso-body-link">
+                    <a href="<?php echo $url_root;?>sistemas.php">
                     <img src="<?php echo $url_root;?>img/btn/btn_sm_y.png">
+                    </a>
                 </div>
             </div>
         </div>

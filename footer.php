@@ -6,7 +6,7 @@
             <div class="col-xs-12 col-md-5 ">
                 <a href="http://www.icticore.com" target="_blank"><img class="footer-ico-redsocial" src="img/footer/ico_fb.png"/></a>
                 <a href="http://www.icticore.com" target="_blank"><img class="footer-ico-redsocial" src="img/footer/ico_tw.png"/></a>
-                <a href="mailto:contacto@fasor.com.mx?Subject=Hola Contacto" target="_top"><img class="footer-ico-redsocial" src="img/footer/ico_correo.png"/></a>
+                <a href="mailto:contacto@fasor.com.mx?Subject=Hola buena tarde..." target="_top"><img class="footer-ico-redsocial" src="img/footer/ico_correo.png"/></a>
                 <br/><br/>
                 &copy; Calidad en Ingeniería Eléctrica Fasor 2015
             </div>
@@ -22,8 +22,20 @@
         </div>
     </div>
 </div>
-<script language="javascript" type="text/javascript">
-     $(window).load(function() {
-     $('#loading').hide();
-  });
+<script >
+    $(window).load(function() {
+        $('#loading').hide();
+    });
+    
+    function ocultarElemento(id_elemento) {
+
+        if ($(id_elemento).css('display') == 'block') {
+            $(id_elemento).hide();
+        } else {
+            $(id_elemento).show();
+        }
+
+    }
+
+    
 </script>
