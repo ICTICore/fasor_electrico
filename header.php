@@ -11,6 +11,7 @@
         
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/css_fonts.css" rel="stylesheet" type="text/css">
         <!--<link href="addons/bootstrap/jquery.smartmenus.bootstrap.css" rel="stylesheet">-->
         
 
@@ -66,11 +67,11 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo $url_root;?>monitoreo.php">Monitoreo</a></li>
-                                <li><a href="<?php echo $url_root;?>monitoreo.php#banco_capacitores">Banco de capacitores</a></li>
-                                <li><a href="<?php echo $url_root;?>monitoreo.php#supresor">Supresor de picos</a></li>
-                                <li><a href="<?php echo $url_root;?>monitoreo.php#pararrayos">Pararrayos</a></li>
-                                <li><a href="<?php echo $url_root;?>monitoreo.php#sistema_tierra">Sistema de tierra</a></li>
+                                <li><a href="<?php echo $url_root;?>monitoreo.php" onClick="ocultar_navbar()">Monitoreo</a></li>
+                                <li><a href="<?php echo $url_root;?>monitoreo.php#banco_capacitores" onClick="ocultar_navbar()">Banco de capacitores</a></li>
+                                <li><a href="<?php echo $url_root;?>monitoreo.php#supresor" onClick="ocultar_navbar()">Supresor de picos</a></li>
+                                <li><a href="<?php echo $url_root;?>monitoreo.php#pararrayos" onClick="ocultar_navbar()">Pararrayos</a></li>
+                                <li><a href="<?php echo $url_root;?>monitoreo.php#sistema_tierra" onClick="ocultar_navbar()">Sistema de tierra</a></li>
                                 
                             </ul>
                             
@@ -83,10 +84,10 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu ">
-                                <li><a href="<?php echo $url_root;?>servicios.php">Servicios</a></li>
-                                <li><a href="<?php echo $url_root;?>servicios.php#estudios">Estudios de Ingeniería</a></li>
-                                <li><a href="<?php echo $url_root;?>servicios.php#mantenimiento">Mantenimiento</a></li>
-                                <li><a href="<?php echo $url_root;?>servicios.php#reparacion">Reparación de Servomotores</a></li>
+                                <li><a href="<?php echo $url_root;?>servicios.php" onClick="ocultar_navbar()">Servicios</a></li>
+                                <li><a href="<?php echo $url_root;?>servicios.php#estudios" onClick="ocultar_navbar()">Estudios de Ingeniería</a></li>
+                                <li><a href="<?php echo $url_root;?>servicios.php#mantenimiento" onClick="ocultar_navbar()">Mantenimiento</a></li>
+                                <li><a href="<?php echo $url_root;?>servicios.php#reparacion" onClick="ocultar_navbar()">Reparación de Servomotores</a></li>
                             </ul>
                         </li>
 
@@ -98,9 +99,9 @@
                                     </div>
                                 </a>
                             <ul class="dropdown-menu ">
-                                <li><a href="<?php echo $url_root;?>reguladores.php">Reguladores</a></li>
-                                <li><a href="<?php echo $url_root;?>reguladores.php#automaticos">Reguladores automáticos de voltajes especiales</a></li>
-                                <li><a href="<?php echo $url_root;?>reguladores.php#transformadores">Transformadores Variables (Variaks)</a></li>
+                                <li><a href="<?php echo $url_root;?>reguladores.php" onClick="ocultar_navbar()">Reguladores</a></li>
+                                <li><a href="<?php echo $url_root;?>reguladores.php#automaticos" onClick="ocultar_navbar()">Reguladores automáticos de voltajes especiales</a></li>
+                                <li><a href="<?php echo $url_root;?>reguladores.php#transformadores" onClick="ocultar_navbar()">Transformadores Variables (Variaks)</a></li>
                             </ul>
                         </li>
                        <li class="dropdown <?php echo (substr($_SERVER['PHP_SELF'],strlen($url_root)) == 'sistemas.php' ? ' active' : ''); ?>">
@@ -112,11 +113,11 @@
                             <ul class="dropdown-menu">
 
                                 <li><a href="<?php echo $url_root;?>sistemas.php">Sistemas Solares</a></li>
-                                <li><a href="<?php echo $url_root;?>sistemas.php#celdas">Celdas Fotovoltaicas</a></li>
-                                <li><a href="<?php echo $url_root;?>sistemas.php#agua">Calentadores para agua</a></li>
-                                <li><a href="<?php echo $url_root;?>sistemas.php#alberca">Calentadores para alberca</a></li>
-                                <li><a href="<?php echo $url_root;?>sistemas.php#luminaria">Luminaria</a></li>
-                                <li><a href="<?php echo $url_root;?>sistemas.php#bombas">Bombas de Aguas</a></li>
+                                <li><a href="<?php echo $url_root;?>sistemas.php#celdas" onClick="ocultar_navbar()">Celdas Fotovoltaicas</a></li>
+                                <li><a href="<?php echo $url_root;?>sistemas.php#agua" onClick="ocultar_navbar()">Calentadores para agua</a></li>
+                                <li><a href="<?php echo $url_root;?>sistemas.php#alberca" onClick="ocultar_navbar()">Calentadores para alberca</a></li>
+                                <li><a href="<?php echo $url_root;?>sistemas.php#luminaria" onClick="ocultar_navbar()">Luminaria</a></li>
+                                <li><a href="<?php echo $url_root;?>sistemas.php#bombas" onClick="ocultar_navbar()">Bombas de Aguas</a></li>
 
                             </ul>
                         </li>
