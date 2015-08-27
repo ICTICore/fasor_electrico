@@ -102,7 +102,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="proyectos_instalaciones" style='display: none;'>
+            <div id="proyectos_instalaciones" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/instalaciones_elec.png"/> 
@@ -148,7 +148,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -193,7 +193,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -239,7 +239,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>"  >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -300,7 +300,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -365,7 +365,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -429,7 +429,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -497,7 +497,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -549,7 +549,7 @@
             </li>
         </div>
         <div class="container">
-            <div id="<?php echo $id_div; ?>" style="display:none;">
+            <div id="<?php echo $id_div; ?>" >
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-responsive" src="<?php echo $url_root; ?>img/servicios/<?php echo $imagen; ?>"/> 
@@ -591,9 +591,3 @@
 
 
 <?php include_once 'footer.php'; ?>
-<script>
-    $(document).ready(function () {
-        $("#analisis_corto_circuito").hide();
-        $("#coordinacion_protecciones").hide();
-    });
-</script>
