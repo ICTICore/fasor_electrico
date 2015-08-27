@@ -116,7 +116,7 @@
             distorsión de voltaje, disparos por sobrevoltajes en los drives, niveles de aislamiento estresados de transformadores y conductores.
         </p>
         <p class="text-justify">
-            <b>Los bancos de capacitores nos ayudarán a corregir</b>:
+            <div class="titulo-azul">¿Qué nos ayudan a corregir los bancos de capacitores?</div>
         </p>
 
         <div class="titulo-verde">
@@ -161,7 +161,7 @@
             <li class="bullet_g">Reducir armónicos</li>
             <li class="bullet_g">Reducir corrientes de retorno por el neutro en sistemas trifásicos</li>
             <li class="bullet_g">Minimizar el impacto sobre los transformadores de distribución</li>
-            <li class="bullet_g">Generador depósitos de los efectos armónicos</li>
+            <li class="bullet_g">Generar depósitos de los efectos armónicos</li>
             <li class="bullet_g">Liberar capacidad de distribución</li>
         </ul>
     </div>
@@ -184,11 +184,13 @@
         <p class="text-justify">Los rayos y fluctuaciones en la energía de los servicios públicos son unas de las fuentes de perturbaciones sin embargo las principales causas son los equipos  tales como motores y artefactos que se enciende y apagan. Se estima que un 65% de las sobretensiones transitorias se generan desde fuentes internas y un 35% provienen del exterior.
             Debido al aumento en el uso de dispositivos electrónicos y su sensibilidad a cualquier sobretensión es importante la protección con SPD.</p>
         <p class="text-justify">Son de tres tipos:</p>
+        <ul>
         <li class="bullet_g">Tipo 1 (Cat C): Permanentemente conectado entre el trasnformador secundario y el lado de la línea de servicio</li>
 
         <li class="bullet_g">Tipo 2  (Cat B): Instalado en el lado carga del dispositivo de sobre corriente del equipo de servicio</li>
 
         <li class="bullet_g">Tipo 3 (Cat A): Conectado con cable diseñado para instalarse en el punto de uso</li>
+        </ul>
     </div>
     <div class="col-md-6">
         <div class="col-xs-10 col-xs-offset-1">

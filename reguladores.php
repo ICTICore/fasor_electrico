@@ -16,6 +16,7 @@
             </p>
         </div>
     </div>
+    <div class="div-aire"></div>
     <div class="row">
 
         <div class="col-md-6">
@@ -38,12 +39,13 @@
             <img class="img-responsive" src="<?php echo $url_root; ?>img/reguladores/grafica.png"/>
         </div>
     </div>
-
+<div class="div-aire"></div>
     <div class="row">
         <div class="col-md-6">
             <img class="img-responsive" src="<?php echo $url_root; ?>img/reguladores/vista_panoramica_2.png"/>
         </div>
         <div class="col-md-6">
+            
             <div class="titulo-azul-grande">Capacidades y dimensiones</div>
             <p class="text-justify">
                 La capacidad de los reguladores se mide en kVA. Para seleccionar el equipo son necesarios  tres datos importantes:
@@ -330,7 +332,7 @@
             </div>
             <div class="col-md-6">
                 <a href="http://www.corpnewline.com/ " target="_blank">
-                <img class="img-responsive" src="<?php echo $url_root; ?>img/reguladores/marca_new_line.png"/>
+                <img class="img-responsive" style="width: 60%; margin: 0 auto;" src="<?php echo $url_root; ?>img/reguladores/marca_new_line.png"/>
                 </a>
             </div>
         </div>

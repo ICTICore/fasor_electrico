@@ -40,6 +40,7 @@
         <img class="img-responsive" src="<?php echo $url_root; ?>img/sistemas_solares/tabla_1.png"/>
     </div>
 </div>
+<div class="div-aire"></div>
 <!--Termina Celdas Fotovoltaicas -->
 
 <!--INICIA Calentadores solares de agua -->
@@ -153,6 +154,7 @@
         </div>
 
     </div>
+    <div class="div-aire"></div>
 </div>
 <!--Termina Calentadores solares de alberca -->
 

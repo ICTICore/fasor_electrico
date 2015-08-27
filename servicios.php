@@ -1,17 +1,27 @@
 <?php include_once 'header.php'; ?>
 <!--INICIA GENERAL -->
+
 <div class="container">
+    <div class="div-aire"></div>
     <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-justify">
-            <br/>
-            <strong>Con el fin de que nuestros clientes cuenten con un sistema eléctrico optimo, confiable, seguro y  a la vanguardia de las nuevas tecnología en el rubro Eléctrico  Calidad en Ingeniería Fasor pone a sus órdenes Servicios  de:</strong>
+        <div class="col-md-6 text-justify">
+            <div class="div-aire"></div>
+            
+            Con el fin de que nuestros clientes cuenten con un sistema eléctrico optimo, confiable, seguro y  a la vanguardia de las nuevas tecnología en el rubro Eléctrico  Calidad en Ingeniería Fasor pone a sus órdenes Servicios  de:
         </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="<?php echo $url_root; ?>img/navbar/logo_horizontal.png"/> 
+        </div>
+        
+        
     </div>
-    <br/>
+    </div>
+
+    <div class="container">
     <a name="estudios"></a>
     <div class="div-final"></div>
     <div class="row">
-        <div class="servicio-titulo">
+        <div class="titulo-azul-grande">
             Estudios de Ingeniería
         </div>
     </div>
@@ -268,11 +278,14 @@
     </div>
 
     <div class="div-aire"></div>
-    
+    </div>
+    <div class="div-azul"></div>
+    <div class="container">
+        
      <a name="mantenimiento"></a>
     <div class="div-final"></div>
     <div class="row">
-        <div class="servicio-titulo">
+        <div class="titulo-azul-grande">
             Mantenimiento
         </div>
     </div>
@@ -459,11 +472,13 @@
     </div>
     
     <div class="div-aire"></div>
-    
+    </div>
+    <div class="div-azul"></div>
+    <div class="container">
     <a name="reparacion"></a>
     <div class="div-final"></div>
     <div class="row">
-        <div class="servicio-titulo">
+        <div class="titulo-azul-grande">
             Reparación de Servomotores y Equipo Electrónico Industrial
         </div>
     </div>
